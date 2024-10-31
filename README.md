@@ -24,7 +24,7 @@ Para rodar a aplicação em sua máquina local, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/churrascalc.git
+   git clone https://github.com/ericafarias/churrascalc.git
 
 2. Navegue até o diretório da aplicação:
     cd churrascalc
