@@ -1,10 +1,10 @@
 # Churrascometro 🍖
 
-**ChurrasCalc** é uma aplicação web projetada para calcular a quantidade ideal de alimentos e bebidas para um churrasco, de acordo com o número de pessoas participantes. A aplicação ajuda na organização dos ingredientes, evitando desperdícios e garantindo que todos sejam servidos com a quantidade certa de alimentos.
+**Churrascometro** é uma aplicação web projetada para calcular a quantidade ideal de alimentos e bebidas para um churrasco, de acordo com o número de pessoas participantes. A aplicação ajuda na organização dos ingredientes, evitando desperdícios e garantindo que todos sejam servidos com a quantidade certa de alimentos.
 
 
 ## Objetivo
-O objetivo principal da **ChurrasCalc** é auxiliar na organização de eventos sociais, garantindo que a quantidade de carnes, acompanhamentos e bebidas seja suficiente para todos os convidados, de maneira prática e rápida.
+O objetivo principal da **Churrascometro** é auxiliar na organização de eventos sociais, garantindo que a quantidade de carnes, acompanhamentos e bebidas seja suficiente para todos os convidados, de maneira prática e rápida.
 
 ## Funcionalidades
 - **Quantidade de carne**: calcula a quantidade necessária de carnes (bovinas, suínas, aves).
@@ -23,8 +23,8 @@ O objetivo principal da **ChurrasCalc** é auxiliar na organização de eventos 
 Para rodar a aplicação em sua máquina local, siga os passos abaixo:
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ericafarias/churrascalc.git
+   
+   https://github.com/ericafarias/churrascometro.git
 
 2. Navegue até o diretório da aplicação:
     cd churrascalc
