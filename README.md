@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# Churrascometro 🍖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ChurrasCalc** é uma aplicação web projetada para calcular a quantidade ideal de alimentos e bebidas para um churrasco, de acordo com o número de pessoas participantes. A aplicação ajuda na organização dos ingredientes, evitando desperdícios e garantindo que todos sejam servidos com a quantidade certa de alimentos.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objetivo
+O objetivo principal da **ChurrasCalc** é auxiliar na organização de eventos sociais, garantindo que a quantidade de carnes, acompanhamentos e bebidas seja suficiente para todos os convidados, de maneira prática e rápida.
 
-## Expanding the ESLint configuration
+## Funcionalidades
+- **Quantidade de carne**: calcula a quantidade necessária de carnes (bovinas, suínas, aves).
+- **Acompanhamentos**: inclui sugestões de acompanhamentos, pão de alho.
+- **Divisão por pessoas**: permite inserir o número de pessoas para uma estimativa mais precisa.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias
+- **Framework**: [React](https://reactjs.org/) com [Vite](https://vitejs.dev/)
+- **Linguagem**: JavaScript (JSX)
+- **Estilização**: CSS e [Styled Components](https://styled-components.com/) para uma melhor experiência de usuário.
+- **Gerenciamento de Estado**: React hooks para controlar variáveis e estados da aplicação.
+- **Formulários e Validação**: [Formik](https://formik.org/) e [Yup](https://github.com/jquense/yup) para manipulação e validação de formulários.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Instalação
+Para rodar a aplicação em sua máquina local, siga os passos abaixo:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/churrascalc.git
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. Navegue até o diretório da aplicação:
+    cd churrascalc
+3. Instale as dependências:
+   npm install
+4. Inicie o servidor de desenvolvimento:
+   npm run dev
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Como Usar
+1. Insira o número de pessoas no campo especificado.
+2. Escolha os alimentos que você deseja incluir no churrasco.
+3. Clique em "Calcular" para ver a quantidade recomendada de cada item.
+
